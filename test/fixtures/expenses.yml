@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  date_of_expense: 2011-08-05
+  place_of_expense: MyString
+  city: MyString
+  state: MyString
+  business_purpose: MyString
+  amount: 9.99
+
+two:
+  date_of_expense: 2011-08-05
+  place_of_expense: MyString
+  city: MyString
+  state: MyString
+  business_purpose: MyString
+  amount: 9.99

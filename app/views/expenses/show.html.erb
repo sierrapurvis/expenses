@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Date of Expense:</b>
+  <%= @expense.date_of_expense %>
+</p>
+
+<p>
+  <b>Place of Expense:</b>
+  <%= @expense.place_of_expense %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @expense.city %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @expense.state %>
+</p>
+
+<p>
+  <b>Business Purpose:</b>
+  <%= @expense.business_purpose %>
+</p>
+
+<p>
+  <b>Amount:</b>
+  <%= @expense.amount %>
+</p>
+
+
+<%= link_to 'Edit', edit_expense_path(@expense) %> |
+<%= link_to 'Back', expenses_path %>
